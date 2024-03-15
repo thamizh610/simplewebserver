@@ -1,6 +1,6 @@
 # EX01 Developing a Simple Webserver
 ## Date:
-
+15/3/24
 ## AIM:
 To develop a simple webserver to serve html pages.
 
@@ -26,12 +26,38 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
 <html>
-<head>
-<title>My webserver</title>
-</head>
-<body>
-<h1>Welcome<h1>
-</body>
+    <table>
+        <tr>
+ /           <th>Rank</th>
+            <th>Company</th>
+            <th>Revenue</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Microsoft</td>
+            <td>$86.8</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Oracle</td>
+            <td>$37.1</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>SAP</td>
+            <td>$20.9</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Symantec</td>
+            <td>$6.8</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>VMware</td>
+            <td>$5.2</td>
+        </tr>
+    </table>
 </html>
 """
 class myhandler(BaseHTTPRequestHandler):
@@ -48,8 +74,9 @@ httpd.serve_forever()
 ```
 
 ## OUTPUT:
-![alt text](Screenshot-EX-1a.png)
-![alt text](Screenshot-Ex-1b.png)
+![image](https://github.com/thamizh610/simplewebserver/assets/150418511/8a1f5cd9-ac8b-48d6-923c-3a404c8417f3)
+![image](https://github.com/thamizh610/simplewebserver/assets/150418511/d268c33c-06a2-4060-bba8-13d69d0b05a3)
+
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
