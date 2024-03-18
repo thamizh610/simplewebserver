@@ -30,45 +30,7 @@ content='''
 <title> My Web Server</title>
 </head>
 <body>
-<h1>Top Five Revenue from Companies</h1>
-<table border=2>
-<tr>
-<th> Company Name</th>
-<th> Revenue</th>
-<th> Financial Year</th>
-</tr>
-
-<tr>
-<td> Micro Soft</td>
-<td> $86.6</td>
-<td> 2014</td>
-</tr>
-<tr>
-<td> Micro Soft</td>
-<td> $86.6</td>
-<td> 2014</td>
-</tr>
-<tr>
-<td> Micro Soft</td>
-<td> $86.6</td>
-<td> 2014</td>
-</tr>
-<tr>
-<td> Micro Soft</td>
-<td> $86.6</td>
-<td> 2014</td>
-</tr>
-<tr>
-<td> Micro Soft</td>
-<td> $86.6</td>
-<td> 2014</td>
-</tr>
-<tr>
-<td> Micro Soft</td>
-<td> $86.6</td>
-<td> 2014</td>
-</tr>
-</table>
+<h1>Welcome</h1>
 </body>
 </html>
 '''
@@ -87,7 +49,7 @@ httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 
 ## OUTPUT:
-![alt text](image.png)
+
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
